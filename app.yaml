@@ -1,4 +1,4 @@
-pi_version: go1
+api_version: go1
 
 handlers:
 - url: /.*
