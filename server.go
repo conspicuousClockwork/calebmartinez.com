@@ -30,7 +30,7 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	render(w, "about")
 }
 
-func main() {
+func init() {
 	http.HandleFunc("/", defaultHandler)
 	http.HandleFunc("/about", aboutHandler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
