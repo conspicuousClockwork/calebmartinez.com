@@ -1,8 +1,35 @@
 html, body {
     padding: 0;
+    margin: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    font-family: 'Poppins', 'sans-serif';
+
+    background-color: #fff;
+}
+
+#header_bar {
+    width: 100%;
+    margin: 0;
+    padding: 2em;
+
+    background-color: #ffd188;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+#header_bar .link-row {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .centerFloat {
@@ -11,14 +38,16 @@ html, body {
     width: 100%;
 
     font-size: 2em;
-    font-family: 'Poppins', 'sans-serif';
 
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
     -webkit-justify-content: center;
-    flex-direction: center;
     -webkit-align-items: center;
     align-items: center;
 
+}
+
+.centerFloat img {
+    height: 3em;
 }
