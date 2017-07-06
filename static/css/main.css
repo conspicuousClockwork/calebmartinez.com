@@ -10,6 +10,9 @@ html, body {
     height: 100%;
     width: 100%;
 
+    font-size: 2em;
+    font-family: 'Poppins', 'sans-serif';
+
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
