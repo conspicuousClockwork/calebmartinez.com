@@ -5,8 +5,8 @@ html, body {
     height: 100vh;
 
     font-family: 'Poppins', 'sans-serif';
-
-    background-color: #fff;
+    background-color: #ffd188;
+    
 }
 
 img { 
@@ -39,6 +39,7 @@ a:active {
 }
 
 #header_bar {
+    position: fixed;
     padding: 3em;
     width: 100vw;
     margin: 0;
@@ -80,7 +81,7 @@ a:active {
 
 #header_bar > h1 > a:active {
     text-decoration: none;
-    color: #a288ff;e
+    color: #a288ff;
 }
 
 .centerFloat {
@@ -88,8 +89,9 @@ a:active {
     height: 100%;
     width: 100%;
 
+    background-color: #fff;
+    border-radius: 3px;
     font-size: 2em;
-    color: #ffd188;
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
