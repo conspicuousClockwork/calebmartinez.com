@@ -1,0 +1,106 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #ffd188;
+    
+}
+
+img { 
+    image-rendering: optimizeSpeed;             /*                     */
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e5ff88;
+}
+
+a:active {
+    text-decoration: none;
+    color: #e5ff88;
+}
+
+#header_bar {
+    position: fixed;
+    padding: 3em;
+    width: 100vw;
+    margin: 0;
+
+    background-color: #ffd188;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+#header_bar .link-row {
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header_bar > h1 > a:link {
+    text-decoration: none;
+    color: #a288ff;
+}
+
+#header_bar > h1 > a:visited {
+    text-decoration: none;
+    color: #a288ff;
+}
+
+#header_bar > h1 > a:hover {
+    text-decoration: none;
+    color: #a288ff;
+}
+
+#header_bar > h1 > a:active {
+    text-decoration: none;
+    color: #a288ff;
+}
+
+.centerFloat {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 2em;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+
+.centerFloat img {
+    height: 3em;
+}
