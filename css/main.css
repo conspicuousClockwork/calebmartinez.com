@@ -3,7 +3,6 @@ html, body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-
     font-family: 'Poppins', 'sans-serif';
     background-color: #ffd188;
     
@@ -87,7 +86,7 @@ a:active {
 .centerFloat {
     margin: 0;
     height: 100%;
-    width: 100%;
+    width: 80%;
 
     background-color: #fff;
     border-radius: 3px;
